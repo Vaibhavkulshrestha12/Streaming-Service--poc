@@ -48,7 +48,7 @@ app.use((req, res, next) => {
 
 
 app.get("/", function(req, res){
-    res.json({message: "Hello Protagnist"})
+    res.json({message: "Hello Protagnist-your file is ready"})
 })
 
 app.post("/upload", upload.single('file'),function(req,res){
