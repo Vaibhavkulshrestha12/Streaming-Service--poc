@@ -60,6 +60,6 @@ app.post("/upload", upload.single('file'),function(req,res){
 })
 
 app.listen(8000,function(){
-    console.log("Server is running")
+    console.log("Server has begun")
 })
 
